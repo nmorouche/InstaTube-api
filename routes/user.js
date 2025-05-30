@@ -1,24 +1,26 @@
 var express = require('express');
 var router = express.Router();
-const {MongoClient} = require('../config');
-const {MONGODB_URI} = require('../config');
-const {dbName} = require('../config');
-const {ObjectId} = require('../config');
+const { MongoClient } = require('../config');
+const { MONGODB_URI } = require('../config');
+const { dbName } = require('../config');
+const { ObjectId } = require('../config');
 
 /* GET USERS */
 router.get('/', async function(req, res) {
-    const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true });
+    const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
     try {
         await client.connect();
-        const db = client.db(dbName);
-        const userCol = db.collection('user');
-        const shortCol = db.collection('short');
-        //Display all datas of the collection
-        let users = await col.find.sort({ _id: -1}).toArray();
-        let shorts = await col.find().toArray();
+
+        const database = client.db("instatube");
+        const userCollection = database.collection("user");
+        const shortCollection = database.collection("short");
+
+        const userData = await userCollection.find().toArray();
+        const shortData = await shortCollection.find().toArray();
+
         res.send({
-            users: users,
-            shorts: shorts
+            users: userData,
+            shorts: shortData
         });
     } catch (err) {
         res.send({
@@ -30,7 +32,7 @@ router.get('/', async function(req, res) {
 
 /* PATCH A USER */
 router.patch('/:id', async function(req, res) {
-    const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true });
+    const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
     try {
         await client.connect();
         const db = client.db(dbName);
