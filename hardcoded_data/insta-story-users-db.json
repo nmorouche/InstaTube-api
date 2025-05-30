@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Neo",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=1",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
+          "type": "video",
+          "duration": 5.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/31950254/pexels-photo-31950254/free-photo-of-scene-de-ceremonie-de-mariage-elegante-en-noir-et-blanc.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 5.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Trinity",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=2",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170272-540p.mp4",
+          "type": "video",
+          "duration": 6.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/31044658/pexels-photo-31044658/free-photo-of-stationnement-du-burbank-triangle-building-a-golden-hour.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 4.0,
+          "seen": false,
+          "liked": false
+        }
+
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Morpheus",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=3",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159557-720p.mp4",
+          "type": "video",
+          "duration": 7.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/31762654/pexels-photo-31762654/free-photo-of-adorable-loutre-sur-un-rocher-moussu-en-suede.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 3.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Smith",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=4",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/125483-720p.mp4",
+          "type": "video",
+          "duration": 6.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/16811826/pexels-photo-16811826/free-photo-of-ville-monument-marches-sous-terrain.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 3.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oracle",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=5",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/waterfall_-_115537-720p.mp4",
+          "type": "video",
+          "duration": 5.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/19196520/pexels-photo-19196520/free-photo-of-femme-chapeau-debout-reflet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 8.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cypher",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=6",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170617-1080p.mp4",
+          "type": "video",
+          "duration": 3.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/31527634/pexels-photo-31527634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 2.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Niobe",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=7",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
+          "type": "video",
+          "duration": 7.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
+          "type": "image",
+          "duration": 4.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dozer",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=8",
+      "stories": [
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
+          "type": "video",
+          "duration": 5.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/waterfall_-_115537-720p.mp4",
+          "type": "video",
+          "duration": 5.5,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Switch",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=9",
+      "stories": [
+        {
+          "media_url": "https://images.pexels.com/photos/32081298/pexels-photo-32081298/free-photo-of-robinet-decoratif-orne-avec-fond-de-carreaux-colores.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 6.5,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tank",
+      "profile_picture_url": "https://i.pravatar.cc/300?u=10",
+      "stories": [
+        {
+          "media_url": "https://images.pexels.com/photos/32212380/pexels-photo-32212380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 8.0,
+          "seen": false,
+          "liked": false
+        },
+        {
+          "media_url": "https://images.pexels.com/photos/31540692/pexels-photo-31540692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "type": "image",
+          "duration": 3.0,
+          "seen": false,
+          "liked": false
+        }
+      ]
+    }
+  ],
+  "shorts": [
+    {
+        "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170272-540p.mp4",
+        "liked": false
+    },
+    {
+      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159557-720p.mp4",
+      "liked": false
+    },
+    {
+      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170272-540p.mp4",
+      "liked": false
+    },
+    {
+      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170617-1080p.mp4",
+      "liked": false
+    },
+    {
+      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
+      "liked": false
+    },
+    {
+      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170617-1080p.mp4",
+      "liked": false
+    }
+  ]
+}

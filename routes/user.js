@@ -11,11 +11,14 @@ router.get('/', async function(req, res) {
     try {
         await client.connect();
         const db = client.db(dbName);
-        const col = db.collection('user');
+        const userCol = db.collection('user');
+        const shortCol = db.collection('short');
         //Display all datas of the collection
-        let results = await col.find.sort({ _id: -1}).toArray();
+        let users = await col.find.sort({ _id: -1}).toArray();
+        let shorts = await col.find().toArray();
         res.send({
-            users: results
+            users: users,
+            shorts: shorts
         });
     } catch (err) {
         res.send({
