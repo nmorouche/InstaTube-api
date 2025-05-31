@@ -1,5 +1,4 @@
-{
-  "users": [
+[
     {
       "id": 1,
       "name": "Neo",
@@ -223,37 +222,4 @@
         }
       ]
     }
-  ],
-  "shorts": [
-    {
-      "id": 1,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170272-540p.mp4",
-      "liked": false
-    },
-    {
-      "id": 2,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159557-720p.mp4",
-      "liked": false
-    },
-    {
-      "id": 3,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170272-540p.mp4",
-      "liked": false
-    },
-    {
-      "id": 4,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170617-1080p.mp4",
-      "liked": false
-    },
-    {
-      "id": 5,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/159703-720p.mp4",
-      "liked": false
-    },
-    {
-      "id": 6,
-      "media_url": "https://blog.codabee.com/wp-content/uploads/2023/12/170617-1080p.mp4",
-      "liked": false
-    }
-  ]
-}
+]
