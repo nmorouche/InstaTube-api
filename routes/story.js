@@ -89,7 +89,7 @@ router.patch('/like/:userId/:storyId', async function(req, res) {
         });
     } catch (err) {
         res.send({
-            error: err
+            success: false
         });
     }
 
@@ -132,7 +132,7 @@ router.patch('/seen/:userId/:storyId', async function(req, res) {
         });
     } catch (err) {
         res.send({
-            error: err
+            sucess: false
         });
     }
 
